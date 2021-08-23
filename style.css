@@ -45,6 +45,7 @@ ul {
   display: flex;
   list-style-type: none;
   font-size: 1.5rem;
+  flex-wrap: wrap;
 }
 
 li {
@@ -190,11 +191,135 @@ li {
   height: 10rem;
   background: #2d2b46;
   color: #f5f8fd;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 5rem;
 }
-.cta-link {
+.cta-container {
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
+  width: 75%;
+  height: 100%;
+}
+.cta-info {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.cta-container_btn {
+  height: 100%;
+  margin: auto;
+}
+.cta-container_btn > button {
+  width: 100%;
+  margin: auto;
+}
+
+.bitcoin-info {
+  display: flex;
+  flex-direction: column;
+}
+.bitcoin-info_details {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 10rem;
+}
+.bitcoin-info_details > img {
+  float: left;
+  width: 45%;
+  height: 300px;
+  margin: 0.5rem;
+}
+.bitcoin-info_details > p,
+h2 {
+  text-align: justify;
+  padding: 0.5rem 1rem;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.bitcoin-info_details--2 > img {
+  float: right;
+
+  text-align: right;
+  padding: 1rem;
+}
+
+.slideshow {
+  margin-top: 10rem;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
 }
