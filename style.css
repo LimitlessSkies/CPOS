@@ -120,6 +120,7 @@ li {
 }
 .service {
   width: 24%;
+  background: #fff;
   min-width: 400px;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   margin: 2rem;
