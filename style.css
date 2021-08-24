@@ -120,7 +120,7 @@ li {
 }
 .service {
   width: 24%;
-  background: #fff;
+  background: #fffa;
   min-width: 400px;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   margin: 2rem;
@@ -324,4 +324,35 @@ q {
 /* Add a blue color to the author */
 .author {
   color: cornflowerblue;
+}
+
+.team {
+  background: #f5f8fd;
+  height: 60vh;
+  width: 100%;
+}
+.team-header {
+  text-align: center;
+  padding-top: 4rem;
+}
+.team-header > p {
+  font-size: 1.5rem;
+}
+.team-header > h1 {
+  font-size: 3rem;
+}
+.team-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+.members-member {
+  background: url(images/team-1.jpg);
+  background-size: justify;
+  background-repeat: no-repeat;
+  height: 50%;
+  margin: auto;
 }
