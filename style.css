@@ -15,6 +15,9 @@ header {
 }
 .background {
   background: url(images/intro-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .media-links {
   display: flex;
@@ -121,9 +124,10 @@ li {
 .service {
   width: 24%;
   background: #fffa;
-  min-width: 400px;
+  min-width: 300px;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   margin: 2rem;
+  border-radius: 3%;
 }
 .service > h2 {
   font-size: 2rem;
@@ -328,12 +332,11 @@ q {
 
 .team {
   background: #f5f8fd;
-  height: 60vh;
   width: 100%;
+  padding-top: 5%;
 }
 .team-header {
   text-align: center;
-  padding-top: 4rem;
 }
 .team-header > p {
   font-size: 1.5rem;
@@ -344,15 +347,19 @@ q {
 .team-members {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
   width: 70%;
-  height: 100%;
-  margin: auto;
+  height: 50%;
+  margin: 3rem auto;
 }
 .members-member {
   background: url(images/team-1.jpg);
-  background-size: justify;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 50%;
+  height: 25rem;
+  width: 25%;
+  min-width: 300px;
   margin: auto;
+  margin-bottom: inherit;
 }
