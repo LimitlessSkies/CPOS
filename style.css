@@ -420,3 +420,88 @@ q {
     transform: translateX(-66.6666%);
   }
 }
+.pricing {
+  width: 100%;
+  background-color: #f5f8fd;
+}
+.pricing-header {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.pricing-prices {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.price {
+  padding: 1rem;
+  max-width: 22%;
+  min-width: 270px;
+  background-color: #fffa;
+  margin: 2rem 0;
+  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+}
+.price:nth-child(1) > span {
+  font-size: 4rem;
+  color: rgb(87, 151, 87);
+}
+.price:nth-child(2) > span {
+  font-size: 4rem;
+  color: rgb(230, 230, 154);
+}
+.price:nth-child(3) > span {
+  font-size: 4rem;
+  color: rgb(255, 119, 119);
+}
+.price-span-month {
+  font-size: 1.5rem;
+  color: black;
+}
+.price:nth-child(1) > h3 {
+  font-size: 2rem;
+  color: rgb(87, 151, 87);
+  padding: 0 1rem 1rem 1rem;
+}
+.price:nth-child(2) > h3 {
+  font-size: 2rem;
+  color: rgb(230, 230, 154);
+  padding: 0 1rem 1rem 1rem;
+}
+.price:nth-child(3) > h3 {
+  font-size: 2rem;
+  color: rgb(255, 119, 119);
+  padding: 0 1rem 1rem 1rem;
+}
+.price > p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.price:nth-child(1) > button {
+  padding: 0.8rem;
+  margin: 1.5rem;
+  font-size: 1rem;
+  background-color: #fffa;
+  color: rgb(87, 151, 87);
+  border: 2px solid rgb(87, 151, 87);
+}
+.price:nth-child(2) > button {
+  padding: 0.8rem;
+  margin: 1.5rem;
+  font-size: 1rem;
+  background-color: #fffa;
+  color: rgb(230, 230, 154);
+  border: 2px solid rgb(247, 247, 165);
+}
+.price:nth-child(3) > button {
+  padding: 0.8rem;
+  margin: 1.5rem;
+  font-size: 1rem;
+  background-color: #fffa;
+  color: rgb(255, 119, 119);
+  border: 2px solid rgb(255, 119, 119);
+}
