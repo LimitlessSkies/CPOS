@@ -353,6 +353,8 @@ q {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
   width: 70%;
   height: 50%;
   margin: 3rem auto 6rem auto;
