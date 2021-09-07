@@ -170,7 +170,7 @@ li {
 }
 .benefits-image {
   width: 50%;
-  min-width: 380px;
+  min-width: 350px;
   margin: auto;
 }
 .benefits-image > img {
@@ -186,7 +186,7 @@ li {
   display: flex;
   flex-direction: column;
   width: 50%;
-  min-width: 400px;
+  min-width: 350px;
   padding: 0rem 1rem;
   margin: 1rem auto;
 }
