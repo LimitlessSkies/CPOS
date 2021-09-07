@@ -530,7 +530,7 @@ q {
 .faq-container {
   width: 66%;
   margin: auto;
-  min-width: 400px;
+  min-width: 350px;
 }
 .faq-accordian {
   margin: 4rem 0;
