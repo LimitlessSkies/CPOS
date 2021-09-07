@@ -61,6 +61,7 @@ li {
   width: 90%;
   margin: auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-greeting {
@@ -68,6 +69,7 @@ li {
   font-size: 2.5rem;
   text-align: center;
   padding-top: 5rem;
+  min-width: 450px;
 }
 
 .hero-image {
@@ -168,6 +170,8 @@ li {
 }
 .benefits-image {
   width: 50%;
+  min-width: 400px;
+  margin: auto;
 }
 .benefits-image > img {
   max-width: 100%;
@@ -182,7 +186,9 @@ li {
   display: flex;
   flex-direction: column;
   width: 50%;
+  min-width: 430px;
   padding: 0rem 1rem;
+  margin: 1rem auto;
 }
 
 .benefits-details > p {
