@@ -513,7 +513,7 @@ q {
   text-align: center;
 }
 .faq-container {
-  width: 70%;
+  width: 66%;
   margin: auto;
 }
 .faq-accordian {
@@ -521,16 +521,50 @@ q {
   text-align: center;
   font-size: 1.7rem;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.667);
+  background-color: #fffa;
   color: rgb(70, 70, 70);
   border-radius: 2%;
-  box-shadow: 0 5px 29px 0 rgb(68 88 144 / 12%);
+  box-shadow: 0 0px 29px 0 rgb(68 88 144 / 20%);
 }
 .faq-accordian > details > summary {
   padding: 1rem;
 }
 .faq-item_content {
-  padding: 1rem;
+  padding: 1.1rem;
   font-size: 1.4rem;
   color: rgb(121, 121, 121);
+}
+footer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background: #2d2b46;
+  color: #f5f8fd;
+}
+.footer-info {
+  display: flex;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  width: 77%;
+  justify-content: space-between;
+}
+.footer-contactus {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links,
+.footer-contactus,
+.footer-contactform {
+  margin: auto;
+  padding: 1.2rem;
+  min-width: 300px;
+}
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contactform form {
+  display: flex;
+  flex-direction: column;
 }
